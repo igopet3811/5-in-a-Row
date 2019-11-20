@@ -39,7 +39,6 @@ public class GameServer {
 				Thread t = new Thread(handler);
 				t.start();
 			}
-			serverSock.close();
 			System.out.println("Game running...");
 		}
 		catch (IOException e) {
